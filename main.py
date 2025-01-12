@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands, tasks
 import requests
 
-TOKEN = '' # discord bot token
+TOKEN = 'past ur token here' # discord bot token
 FIVEM_SERVER_ENDPOINT = 'http://IP:PORT/players.json' # remplace by ur ip:port
 
 intents = discord.Intents.default()
