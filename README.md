@@ -3,3 +3,6 @@
 - put ur information here
 - pip install -r requirements.txt
 - python main.py
+
+
+![image](https://github.com/user-attachments/assets/ab1fe0d4-6d68-4b31-8795-a805edd62d2b)
