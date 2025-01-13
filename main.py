@@ -14,7 +14,7 @@ async def on_ready():
     print(f'{bot.user} has connected to Discord!')
     update_player_count.start()
 
-@tasks.loop(seconds=60)  # Update every 60 seconds
+@tasks.loop(seconds=60)  # Update tout kes 60 secondes
 async def update_player_count():
     try:
         response = requests.get(FIVEM_SERVER_ENDPOINT)
